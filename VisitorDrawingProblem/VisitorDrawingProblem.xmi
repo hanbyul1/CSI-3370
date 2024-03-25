@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAGJW6jiBvlFJl8=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAGJW6YrUvR0F4Y=" name="JavaReverse" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAGJW6YrZPR1I4E=" name="visitordrawingproblem" visibility="public" xmi:type="uml:Package">
+				<packagedElement xmi:id="AAAAAAGJW6YrZPR2q60=" name="DrawObject" visibility="public" isAbstract="true" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+					<xmi:Extension extender="StarUML">
+						<documentation value="Click%20nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt%20to%20change%20this%20license%0AClick%20nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java%20to%20edit%20this%20template%0A@author%20kim2"/>
+					</xmi:Extension>
+					<ownedAttribute xmi:id="AAAAAAGJW6YriPSsuCY=" name="name" visibility="package" isStatic="false" isLeaf="false" type="String_id" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+					<ownedOperation xmi:id="AAAAAAGJW6YrZfR3KxY=" name="draw" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="true" xmi:type="uml:Operation">
+						<ownedParameter xmi:id="AAAAAAGJW6YrZfR4pi0=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<ownedOperation xmi:id="AAAAAAGJW6YrZfR5GKk=" name="getName" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<ownedParameter xmi:id="AAAAAAGJW6YrZfR6y6c=" visibility="public" isStatic="false" isLeaf="false" type="String_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+				</packagedElement>
+				<packagedElement xmi:id="AAAAAAGJW6Yra/R7lYQ=" name="Line" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+					<xmi:Extension extender="StarUML">
+						<documentation value="Click%20nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt%20to%20change%20this%20license%0AClick%20nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java%20to%20edit%20this%20template%0A@author%20kim2"/>
+					</xmi:Extension>
+					<ownedOperation xmi:id="AAAAAAGJW6Yra/R8v6k=" name="Line" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<xmi:Extension extender="StarUML">
+							<stereotype value="constructor"/>
+						</xmi:Extension>
+						<ownedParameter xmi:id="AAAAAAGJW6Yra/R9XZo=" name="name" visibility="public" isStatic="false" isLeaf="false" type="String_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<ownedOperation xmi:id="AAAAAAGJW6Yra/R+TjA=" name="draw" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<ownedParameter xmi:id="AAAAAAGJW6YrbPR/nhA=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<generalization xmi:id="AAAAAAGJW6Yrh/SnZ8k=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAGJW6Yra/R7lYQ=" general="AAAAAAGJW6Yrf/SdOGI="/>
+				</packagedElement>
+				<packagedElement xmi:id="AAAAAAGJW6YrcPSAArI=" name="ObjectStructure" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+					<xmi:Extension extender="StarUML">
+						<documentation value="Click%20nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt%20to%20change%20this%20license%0AClick%20nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java%20to%20edit%20this%20template%0A@author%20kim2"/>
+					</xmi:Extension>
+					<ownedAttribute xmi:id="AAAAAAGJW6YriPStZ5g=" name="os" visibility="package" isStatic="false" isLeaf="false" type="AAAAAAGJW6YriPSy8tY=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+					<ownedOperation xmi:id="AAAAAAGJW6YrcPSB9AU=" name="add" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<ownedParameter xmi:id="AAAAAAGJW6YrcPSCfDc=" name="o" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGJW6YrZPR2q60=" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+						<ownedParameter xmi:id="AAAAAAGJW6YrcPSDbD4=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<ownedOperation xmi:id="AAAAAAGJW6YrcPSE/uI=" name="remove" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<ownedParameter xmi:id="AAAAAAGJW6YrcPSFwEA=" name="o" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGJW6YrZPR2q60=" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+						<ownedParameter xmi:id="AAAAAAGJW6YrcPSGEao=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<ownedOperation xmi:id="AAAAAAGJW6YrcPSHoDM=" name="getObjectStructure" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<ownedParameter xmi:id="AAAAAAGJW6YrcPSIyLQ=" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGJW6YriPSy8tY=" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+				</packagedElement>
+				<packagedElement xmi:id="AAAAAAGJW6YrdPSJv80=" name="Picture" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+					<xmi:Extension extender="StarUML">
+						<documentation value="Click%20nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt%20to%20change%20this%20license%0AClick%20nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java%20to%20edit%20this%20template%0A@author%20kim2"/>
+					</xmi:Extension>
+					<ownedAttribute xmi:id="AAAAAAGJW6YriPSuvHg=" name="elems" visibility="package" isStatic="false" isLeaf="false" type="AAAAAAGJW6YriPSy8tY=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+					<ownedAttribute xmi:id="AAAAAAGJW6YriPSvNGA=" name="objs" visibility="package" isStatic="false" isLeaf="false" type="AAAAAAGJW6YrifSz7/Q=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+					<ownedOperation xmi:id="AAAAAAGJW6YrdPSKwNQ=" name="Picture" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<xmi:Extension extender="StarUML">
+							<stereotype value="constructor"/>
+						</xmi:Extension>
+						<ownedParameter xmi:id="AAAAAAGJW6YrdPSLrrE=" name="name" visibility="public" isStatic="false" isLeaf="false" type="String_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<ownedOperation xmi:id="AAAAAAGJW6YrdPSMAH0=" name="draw" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<ownedParameter xmi:id="AAAAAAGJW6YrdPSNLnI=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<ownedOperation xmi:id="AAAAAAGJW6YrdPSO8oE=" name="add" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<ownedParameter xmi:id="AAAAAAGJW6YrdPSPQvw=" name="o" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGJW6YrZPR2q60=" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+						<ownedParameter xmi:id="AAAAAAGJW6YrdfSQh7E=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<ownedOperation xmi:id="AAAAAAGJW6YrdfSRFjQ=" name="getObjs" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<ownedParameter xmi:id="AAAAAAGJW6YrdfSSN2Q=" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGJW6YrifSz7/Q=" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<generalization xmi:id="AAAAAAGJW6Yrh/SolvA=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAGJW6YrdPSJv80=" general="AAAAAAGJW6YrZPR2q60="/>
+				</packagedElement>
+				<packagedElement xmi:id="AAAAAAGJW6YrdvST/4M=" name="Point" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+					<xmi:Extension extender="StarUML">
+						<documentation value="Click%20nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt%20to%20change%20this%20license%0AClick%20nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java%20to%20edit%20this%20template%0A@author%20kim2"/>
+					</xmi:Extension>
+					<ownedOperation xmi:id="AAAAAAGJW6YrdvSU+IA=" name="Point" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<xmi:Extension extender="StarUML">
+							<stereotype value="constructor"/>
+						</xmi:Extension>
+						<ownedParameter xmi:id="AAAAAAGJW6YrdvSV+aw=" name="name" visibility="public" isStatic="false" isLeaf="false" type="String_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<ownedOperation xmi:id="AAAAAAGJW6YrdvSWPHk=" name="draw" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<ownedParameter xmi:id="AAAAAAGJW6YrdvSX2mo=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<generalization xmi:id="AAAAAAGJW6Yrh/SpyJA=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAGJW6YrdvST/4M=" general="AAAAAAGJW6YrZPR2q60="/>
+				</packagedElement>
+				<packagedElement xmi:id="AAAAAAGJW6YrefSYSJw=" name="Rectangle" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+					<xmi:Extension extender="StarUML">
+						<documentation value="Click%20nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt%20to%20change%20this%20license%0AClick%20nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java%20to%20edit%20this%20template%0A@author%20kim2"/>
+					</xmi:Extension>
+					<ownedOperation xmi:id="AAAAAAGJW6YrefSZlxA=" name="Rectangle" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<xmi:Extension extender="StarUML">
+							<stereotype value="constructor"/>
+						</xmi:Extension>
+						<ownedParameter xmi:id="AAAAAAGJW6YrefSaXoQ=" name="name" visibility="public" isStatic="false" isLeaf="false" type="String_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<ownedOperation xmi:id="AAAAAAGJW6YrefSbCK8=" name="draw" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<ownedParameter xmi:id="AAAAAAGJW6YrefScTMA=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<generalization xmi:id="AAAAAAGJW6Yrh/Sqsno=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAGJW6YrefSYSJw=" general="AAAAAAGJW6Yrf/SdOGI="/>
+				</packagedElement>
+				<packagedElement xmi:id="AAAAAAGJW6Yrf/SdOGI=" name="Shape" visibility="public" isAbstract="true" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+					<xmi:Extension extender="StarUML">
+						<documentation value="Click%20nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt%20to%20change%20this%20license%0AClick%20nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java%20to%20edit%20this%20template%0A@author%20kim2"/>
+					</xmi:Extension>
+					<ownedAttribute xmi:id="AAAAAAGJW6YriPSwMNo=" name="elems" visibility="package" isStatic="false" isLeaf="false" type="AAAAAAGJW6YriPSy8tY=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+					<ownedAttribute xmi:id="AAAAAAGJW6YriPSxRaE=" name="pts" visibility="package" isStatic="false" isLeaf="false" type="AAAAAAGJW6YrifSz7/Q=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+					<ownedOperation xmi:id="AAAAAAGJW6Yrf/Sebrc=" name="add" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<ownedParameter xmi:id="AAAAAAGJW6Yrf/SfiMk=" name="p" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGJW6YrdvST/4M=" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+						<ownedParameter xmi:id="AAAAAAGJW6Yrf/Sgwjw=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<ownedOperation xmi:id="AAAAAAGJW6Yrf/Sh4oM=" name="getPts" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<ownedParameter xmi:id="AAAAAAGJW6Yrf/SiUQM=" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGJW6YrifSz7/Q=" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+					<generalization xmi:id="AAAAAAGJW6Yrh/SrMnk=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAGJW6Yrf/SdOGI=" general="AAAAAAGJW6YrZPR2q60="/>
+				</packagedElement>
+				<packagedElement xmi:id="AAAAAAGJW6YrhvSj7mE=" name="VisitorDrawingProblem" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+					<xmi:Extension extender="StarUML">
+						<documentation value="Click%20nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt%20to%20change%20this%20license%0AClick%20nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java%20to%20edit%20this%20template%0A@author%20kim2"/>
+					</xmi:Extension>
+					<ownedOperation xmi:id="AAAAAAGJW6YrhvSkOV8=" name="main" visibility="public" isStatic="true" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+						<xmi:Extension extender="StarUML">
+							<documentation value="@param%20args%20the%20command%20line%20arguments"/>
+						</xmi:Extension>
+						<ownedParameter xmi:id="AAAAAAGJW6YrhvSlgO8=" name="args" visibility="public" isStatic="false" isLeaf="false" type="String_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter">
+							<lowerValue xmi:id="AAAAAAGJW6jiCvlGPk8=" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+							<upperValue xmi:id="AAAAAAGJW6jiCvlH9EE=" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+						</ownedParameter>
+						<ownedParameter xmi:id="AAAAAAGJW6YrhvSmruw=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+					</ownedOperation>
+				</packagedElement>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAGJW6YriPSy8tY=" name="Vector" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+			<packagedElement xmi:id="AAAAAAGJW6YrifSz7/Q=" name="Enumeration" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+		</packagedElement>
+		<packagedElement xmi:id="String_id" xmi:type="uml:DataType" name="String"/>
+		<packagedElement xmi:id="void_id" xmi:type="uml:DataType" name="void"/>
+	</uml:Model>
+</xmi:XMI>
